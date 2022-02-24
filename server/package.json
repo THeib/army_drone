@@ -2,10 +2,10 @@
   "name": "army_drone_sourcecode",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "MainApp.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon MainApp.js",
+    "start": "node MainApp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,8 +15,12 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "firebase": "^9.6.7",
+    "http": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
-    "sequelize": "^6.16.1"
+    "sequelize": "^6.16.1",
+    "ws": "^8.5.0"
   }
 }
