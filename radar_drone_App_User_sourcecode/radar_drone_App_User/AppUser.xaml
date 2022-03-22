@@ -1,0 +1,14 @@
+﻿<Window x:Class="radar_drone_App_User.AppUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:radar_drone_App_User"
+        mc:Ignorable="d"
+        Title="AppUser" Height="293.291" Width="298.243">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <Button x:Name="button_login" Content="login" HorizontalAlignment="Left" Margin="84,173,0,0" VerticalAlignment="Top" Width="115" Height="30" Click="btn_click"/>
+        <TextBox x:Name="textBoxUser" HorizontalAlignment="Left" Height="23" Margin="84,65,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxPass" HorizontalAlignment="Left" Height="23" Margin="84,124,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
